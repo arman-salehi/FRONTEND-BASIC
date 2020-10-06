@@ -1,0 +1,254 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+#nav {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    padding: 0px;
+    top: 0;
+   /* display: flex;
+    justify-content: center;*/
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+li a {
+    color: #1d1d1d;
+    margin: 17px 15px;
+    text-decoration: none;
+    float: left;
+    font-size: 20px;
+    transition: 0.3s;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+
+}
+
+li a:hover {
+    color: #1d1d1d;
+    margin: 17px 15px;
+    text-decoration: none;
+    float: left;
+    font-size: 20px;
+    transition: 0.3s;
+    background-color: transparent;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom: 2px solid #1d1d1d;
+    padding-bottom: 5px;
+
+}
+
+.active {
+    color: rgb(0, 0, 0) !important;
+    margin: 17px 15px !important;
+    text-decoration: none !important;
+    float: left !important;
+    font-size: 20px !important;
+    transition: 0.3s !important;
+    background-color: transparent !important;
+    /*border-top: 3px solid #B80000 !important;*/
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom: 2px solid rgb(0, 0, 0) !important;
+    padding-bottom: 5px !important;
+
+}
+
+.header h1 {
+    margin-top: 150px;
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 0px;
+    
+}
+
+.header p {
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.header {
+    /*background-image: url('img/background.png');*/
+    background-color: transparent;
+    padding: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.header2 h1 {
+    margin-top: 150px;
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 0px;
+
+    
+}
+
+.header2 p {
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.header2 {
+    /*background-image: url('img/background.png');*/
+    background-color: transparent;
+    padding: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.over {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 35%;  
+    margin-right: 35%;
+}
+
+.over p {
+    font-size: 25px;
+    line-height: 20px;
+    color: white;
+}
+
+.over h1 {
+    font-size: 40px;
+    line-height: 5px;
+    color: white;
+}
+
+.over2 {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.over2 p {
+    font-size: 25px;
+    line-height: 20px;
+    color: white;
+}
+
+.over2 h1 {
+    font-size: 40px;
+    line-height: 5px;
+    color: white;
+}
+
+.rij {
+    float: left;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    padding: 500px;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.rij2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+.overdesc {
+    margin-left: 35%;
+    margin-right: 35%;
+    line-height: 30px;
+    font-size: 20px;
+    color: #999;
+}
+
+.overdesc a {
+    line-height: 30px;
+    font-size: 20px;
+    color: #999;
+    text-decoration: none;
+    transition: 0.3s;
+    border-bottom: 2px solid transparent;
+}
+
+.overdesc a:hover {
+    line-height: 30px;
+    font-size: 20px;
+    color: #999;
+    text-decoration: none;
+    border-bottom: 2px solid #999;
+    transition: 0.3s;
+}
+
+#images {
+    padding: 10px;
+    margin-left: 35%;  
+    margin-right: 35%;
+}
+
+#images > img{
+    width: 500px;
+    }
+
+#begin {
+        background-color: black;
+        padding: 100px;
+}
+
+#begin2 {
+    background-color: black;
+    padding: 100px;
+    padding-bottom: 600px;
+}
+
+#mid {
+    background-color: #070707;
+    padding: 100px;
+    border-top: 1px solid rgb(17, 17, 17);
+    border-bottom: 1px solid rgb(17, 17, 17);
+}
+
+#mid2 {
+    background-color: black;
+    padding: 100px;
+}
